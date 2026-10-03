@@ -1,0 +1,16 @@
+{
+  "name": "dsh-price-indicator",
+  "displayName": "梁文峰/梁文谷时间显示",
+  "description": "DeepSeek Harness 插件：在对话上边框显示当前 DeepSeek 价格处于低谷期（梁文谷）还是高峰期（梁文峰），并显示距离价格切换的倒计时。工作日高峰 9:00-12:00 / 14:00-18:00；周末与法定节假日全天按空闲计费。",
+  "version": "1.1.0",
+  "idPrefix": "price",
+  "pluginId": "price-1",
+  "currentPackageId": "pkg-price-1",
+  "purpose": "Shows the DeepSeek price tide (peak 梁文峰 / off-peak 梁文谷) alongside a countdown to the next price switch in the conversation header.",
+  "sources": {
+    "host": "src/host.js",
+    "client": "src/client.js"
+  },
+  "staticPackage": "plugin/",
+  "license": "MIT"
+}

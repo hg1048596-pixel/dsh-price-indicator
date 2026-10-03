@@ -1,0 +1,36 @@
+{
+  "name": "dsh-price-indicator",
+  "version": "1.1.0",
+  "description": "DeepSeek Harness plugin: show the DeepSeek price tide (peak 梁文峰 / off-peak 梁文谷) and a countdown to the next price switch in the conversation header.",
+  "type": "module",
+  "main": "./plugin/host.js",
+  "exports": {
+    ".": "./plugin/host.js",
+    "./client": "./plugin/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "plugin/",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "plugin",
+    "cordis",
+    "price",
+    "tide",
+    "countdown"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}
