@@ -52,6 +52,8 @@ dsh-price-indicator/
 
 ## 🚀 安装与激活
 
+> **DSH 0.2+（含桌面版）**：请装进你**当前实际使用的 profile**，例如 `dsh plugin --profile desktop add <本仓库路径>`（桌面版用 `desktop`，旧版网页版用 `web`）。下文示例里的 `~/.dsh/profiles/web/...` 对应旧版（0.1.x）网页 profile，把 profile 名换成你正在用的那个即可。
+
 ### 方式一：静态安装（推荐，随 DSH 加载，重启不丢失）
 
 1. **部署**：把 `plugin/` 目录复制到 web profile 的 node_modules 下：
